@@ -51,7 +51,7 @@ Altere o arquivo `docker-compose.yml` para que o comando de início do comando s
 Execute o comando:
 
 ```bash
-docker compose up -d
+docker-compose up -d
 ```
 
 Dessa forma, o _container_ já irá executar a aplicação.
