@@ -55,3 +55,11 @@ docker compose up -d
 ```
 
 Dessa forma, o _container_ já irá executar a aplicação.
+
+### Dica
+
+Caso tenha conflitos com portas já usadas. Use os comandos:
+
+```bash
+killall node # Parar qualquer aplicação node que esteja sendo executados na máquina!
+docker stop $(docker ps -qa) # Para containers que estão sendo executados!
