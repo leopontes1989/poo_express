@@ -1,6 +1,6 @@
-# Transactions API
+# Trybeteca API
 
-App para gestão financeira desenvolvida no conteúdo do dia BE8.3.
+App para gestão de bibliotecas desenvolvida no conteúdo do dia BE10.1.
 
 ## Como executar?
 
@@ -15,7 +15,7 @@ docker-compose up -d
 Entre no _container_ com o comando:
 
 ```bash
-docker exec -it transactions_api bash 
+docker exec -it library_api bash 
 ```
 
 Dentro do _container_ execute o comando:
@@ -38,7 +38,7 @@ Altere o arquivo `docker-compose.yml` para que o comando de início do comando s
 #    # https://github.com/nodejs/docker-node/blob/main/docs/BestPractices.md#non-root-user
 #    user: node
 #    # Nome do container para facilitar execução
-#    container_name: transactions_api
+#    container_name: library_api
 #    # Mesmo que `docker run -t`
 #    tty: true
 #    # Mesmo que `docker run -i`
