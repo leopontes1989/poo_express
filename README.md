@@ -1,6 +1,6 @@
 # Trybeteca API
 
-App para gestão de bibliotecas desenvolvida no conteúdo do dia 10.1.
+App para gestão de bibliotecas desenvolvidas no conteúdo do dia 10.1.
 
 ## Iniciando o Projeto
 
@@ -22,13 +22,13 @@ Instale as dependências do projeto:
 npm install
 ```
 
-Inicie os conteiners do banco de dados e backend:
+Inicie os containers do banco de dados e backend:
 
 ```bash
 docker-compose up -d
 ```
 
-Execute o conteiner que você acabou de criar:
+Execute o container que você acabou de criar:
 
 ```bash
 docker exec -it library-api bash
@@ -42,7 +42,7 @@ npm run dev
 
 ### Atenção
 
-Os comandos `npm run dev` e `npm test` podem ser rodados tanto fora quanto dentro do conteinter Docker. Execute-os onde achar melhor!
+Os comandos `npm run dev` e `npm test` podem ser rodados tanto fora quanto dentro do container Docker. Execute-os onde achar melhor!
 
 ### Dica
 
