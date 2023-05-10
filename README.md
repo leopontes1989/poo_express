@@ -7,13 +7,13 @@ App para gestão de bibliotecas desenvolvidas no conteúdo do dia 10.1.
 Clone esse repositório com o comando:
 
 ```bash
-git clone git@github.com:tryber/library-api.git
+git clone git@github.com:tryber/trybeteca-api.git
 ```
 
 Entre no diretório raiz:
 
 ```bash
-cd library-api
+cd trybeteca-api
 ```
 
 Instale as dependências do projeto:
@@ -28,21 +28,15 @@ Inicie os containers do banco de dados e backend:
 docker-compose up -d
 ```
 
-Execute o container que você acabou de criar:
+A aplicação estará disponível em `http://localhost:3001`.
+
+### Rodando os testes unitários
 
 ```bash
-docker exec -it library-api bash
+npm test
 ```
 
-Rode o servidor da aplicação:
-
-```bash
-npm run dev
-```
-
-### Atenção
-
-Os comandos `npm run dev` e `npm test` podem ser rodados tanto fora quanto dentro do container Docker. Execute-os onde achar melhor!
+> Nota: O comando pode ser rodado tanto fora quanto dentro do container Docker.
 
 ### Dica
 
