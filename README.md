@@ -33,7 +33,7 @@ A aplicação estará disponível em `http://localhost:3001`.
 Também é possível ver os logs da aplicação com o comando:
 
 ```bash
-docker-compose logs -f trybeteca_api
+docker logs -f trybeteca_api
 ```
 
 ### Rodando os testes unitários
